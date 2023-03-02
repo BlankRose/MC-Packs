@@ -1,0 +1,23 @@
+{
+	"parent": "portalgun:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:skeleton_skull"
+		},
+		"title": "Can't touch this",
+		"description": "Witness the power of the laser fields",
+		"announce_to_chat": true,
+		"frame": "task",
+		"hidden": false,
+		"show_toast": true
+	},
+	"criteria": {
+		"manual": {
+			"trigger": "impossible",
+			"conditions": {}
+		}
+	},
+	"requirements": [
+		[ "manual" ]
+	]
+}

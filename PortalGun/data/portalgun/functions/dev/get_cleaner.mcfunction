@@ -1,0 +1,4 @@
+# GIVE CLEANER
+# Gives to the caller an object cleaner
+
+give @s salmon_spawn_egg{EntityTag:{Tags:[PG_ObjectDestroy], NoAI:1b, DeathTime:19, DeathLootTable:"", NoGravity:1b, ActiveEffects:[{Id:11, Amplifier:255, ShowParticles:0b, Duration:99999}, {Id:14, ShowParticles:0b, Duration:99999}], Silent:1b, AbsorptionAmount:9999999}, display:{Name:'[{"text": "Object Cleaner", "bold": true, "italic": false}]', Lore:['{"text": ""}', '{"text": "When placed:", "color": "#A0A0A0", "underlined": true, "bold": true, "italic": false}', '{"text": "Destroys the closest object", "color": "#808080", "italic": false}', '{"text": "Max effect radius: 5 blocks", "color": "#808080", "italic": false}']}}

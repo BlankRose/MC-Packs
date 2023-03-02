@@ -1,0 +1,16 @@
+{
+	"criteria": {
+		"portalgun": {
+			"trigger": "recipe_unlocked",
+			"conditions": {
+				"recipe": "portalgun:portalgun"
+			}
+		}
+	},
+	"requirements": [
+		[ "portalgun" ]
+	],
+	"rewards": {
+		"function": "portalgun:recipes/get_portalgun"
+	}
+}

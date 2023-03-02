@@ -1,0 +1,13 @@
+{
+	"type": "crafting_shapeless",
+	"ingredients": [
+		{ "item": "crossbow" },
+		{ "item": "bow" },
+		{ "item": "nether_star" },
+		{ "item": "ender_eye" },
+		{ "item": "ender_eye" }
+	],
+	"result": {
+		"item": "bow"
+	}
+}

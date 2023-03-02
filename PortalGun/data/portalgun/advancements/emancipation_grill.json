@@ -1,0 +1,24 @@
+{
+	"parent": "portalgun:root",
+	"display": {
+		"icon": {
+			"item": "minecraft:allay_spawn_egg",
+			"nbt": "{Enchantments:[{id:\"silk_touch\", lvl:1}]}"
+		},
+		"title": "Anti-Portal",
+		"description": "Experiment the emancipation grills",
+		"announce_to_chat": true,
+		"frame": "task",
+		"hidden": false,
+		"show_toast": true
+	},
+	"criteria": {
+		"manual": {
+			"trigger": "impossible",
+			"conditions": {}
+		}
+	},
+	"requirements": [
+		[ "manual" ]
+	]
+}

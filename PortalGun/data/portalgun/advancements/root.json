@@ -1,0 +1,23 @@
+{
+	"display": {
+		"icon": {
+			"item": "minecraft:bow"
+		},
+		"title": "Portal Gun",
+		"description": "Ah sh*t, here we go again",
+		"announce_to_chat": false,
+		"frame": "task",
+		"hidden": false,
+		"show_toast": false,
+		"background": "minecraft:textures/block/black_concrete.png"
+	},
+	"criteria": {
+		"tick": {
+			"trigger": "minecraft:tick",
+			"conditions": {}
+		}
+	},
+	"requirements": [
+		[ "tick" ]
+	]
+}

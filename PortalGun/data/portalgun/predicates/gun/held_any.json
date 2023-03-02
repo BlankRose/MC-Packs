@@ -1,0 +1,29 @@
+{
+	"condition": "alternative",
+	"terms": [
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"mainhand": {
+						"items": [ "bow" ],
+						"nbt": "{PortalGunItem:1b}"
+					}
+				}
+			}
+		},
+		{
+			"condition": "entity_properties",
+			"entity": "this",
+			"predicate": {
+				"equipment": {
+					"offhand": {
+						"items": [ "bow" ],
+						"nbt": "{PortalGunItem:1b}"
+					}
+				}
+			}
+		}
+	]
+}
